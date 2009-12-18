@@ -66,11 +66,15 @@ body{
 }
 a{
         color:#cecccc;
+	-webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
 
 }
 a:hover{
     color:white;
     text-shadow: 0 0 1px #eee;
+     -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
 }
 h1{
     margin-bottom:5px;
@@ -101,13 +105,23 @@ height:634px;
     margin-bottom:10px;
      font-size:48px;
      text-shadow: 0px -1px 0px #111111;
-     filter: dropshadow(color=#111111,offX=0,offY=-1);
+     
 }
 #header a{
 	color:#010101;
 	text-decoration:none;
 	   text-shadow: 0px -1px 0px #333333;
-     filter: dropshadow(color=#333333,offX=0,offY=-1);
+  
+}
+#header a:hover{
+	color:#010101;
+	text-decoration:none;
+	   text-shadow: 0px -1px 0px #333333;
+	   -webkit-transform: scale(1.05);
+    -moz-transform:scale(1.05);
+     
+      -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
 }
 #navigation{
     
@@ -125,6 +139,10 @@ background-color: rgba(0, 0, 0, 0.7);
 padding:10px;
 height:337px;
 margin-top:10px;
+-moz-box-shadow: 0px -2px 1px #000;
+-webkit-box-shadow: 0px -2px 1px #000;
+box-shadow: 0px -2px 1px #000;
+
 }
 #footer{
     width:750px;
@@ -183,10 +201,17 @@ textarea:focus{
        
        margin-top:10px;
        width:195px;
+       -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -moz-box-shadow: 0px -2px 1px #000;
+-webkit-box-shadow: 0px -2px 1px #000;
+box-shadow: 0px -2px 1px #000;
 }
 .menu_head:hover{
 	color:white;
 	text-shadow: 0 0 1px #eee;
+	 -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
 }
 #menu_body {
 	display:none;
