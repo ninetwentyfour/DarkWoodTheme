@@ -14,7 +14,7 @@
     <div id="backgrounds">
        
         <div id="header">
-            <?php bloginfo('name'); ?>
+           <a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name'); ?></a>
         </div>
         <div id="navigation">
             <noscript><nojs>THIS SITE WORKS BEST WITH JAVASCRIPT ENABLED</nojs></noscript>
