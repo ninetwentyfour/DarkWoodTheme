@@ -1,0 +1,164 @@
+/*
+Theme Name: Dark Wood
+Theme URI: http://travisberry.com
+Description: A Wordpress portfolio theme.
+Version: 1.0
+Author: Travis Berry
+Author URI: http://travisberry.com
+*/
+/* reset */
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset */
+/*main*/
+body{
+    background-color:black;
+       background-image:url('images/gradstripe.jpg');
+    background-repeat:repeat-x;
+    color:#cecccc;
+    font-family:"Verdana";
+    font-size:12px;
+}
+a{
+        color:#cecccc;
+
+}
+a:hover{
+    color:white;
+}
+h1{
+    margin-bottom:5px;
+}
+nojs{
+    color:red;
+}
+#container{width:900px;
+    margin:auto auto;
+    padding:0px 0px 0px 90px;
+   
+
+}
+#backgrounds{width:786px;
+height:634px;
+    background-image:url('images/woodbg.jpg');
+    background-repeat:no-repeat;
+    
+    
+ 
+}
+#header{
+    font-family:"Arno Pro";
+    width:560px;
+    float:left;
+    margin-top:60px;
+    margin-left:40px;
+    margin-bottom:10px;
+     font-size:48px;
+     text-shadow: 0px -1px 0px #111111;
+     filter: dropshadow(color=#111111,offX=0,offY=-1);
+}
+#navigation{
+    
+    width:250px;
+    float:left;
+    margin-left:20px;
+    margin-right:10px;
+    
+}
+#content{
+
+    width:450px;
+    float:left;
+background-color: rgba(0, 0, 0, 0.7);
+padding:10px;
+height:337px;
+margin-top:10px;
+}
+#footer{
+    width:900px;
+    float:left;
+}
+/*main*/
+/* new collapse nav style*/
+#firstpane{
+  padding:0px 0px 0px 10px;
+}
+.menu_list {
+	width: 150px;
+}
+.menu_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+       background-color: rgba(0, 0, 0, 0.7);
+       
+       margin-top:10px;
+       width:195px;
+}
+#menu_body {
+	display:none;
+	
+}
+
+#menu_body a {
+  display:block;
+  
+ 
+  
+  padding-left:10px;
+  padding-bottom:10px;
+  text-decoration:none;
+}
+#menu_body a:hover {
+  color: #fff;
+  text-decoration:underline;
+}
+#menu_body.current_page_item {
+  display:inline !important;
+}
