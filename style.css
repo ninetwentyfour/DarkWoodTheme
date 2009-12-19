@@ -247,3 +247,196 @@ box-shadow: 0px -2px 1px #000;
 
 
 /*selectors*/
+/*
+   coda slider*/
+
+	p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30px 0; text-align: center; width: 100% }
+		
+		p#cross-links { text-align: center }
+		
+		p#cross-links { border-bottom: 1px solid #ccc; margin-bottom: 10px; display:none; padding-bottom: 30px }
+		
+		noscript p, noscript ol { color: #a00; font-size: 13px; line-height: 1.4em; text-align: left }
+		noscript a { color: #a00; text-decoration: underline }
+		noscript ol { margin-left: 25px; }
+		
+	
+		
+		.stripViewer .panelContainer .panel ul {
+			text-align: left;
+			margin: 0 15px 0 30px;
+		}
+		
+		.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+			margin: 0px 0;
+			position: relative;
+			width: 100%;
+    padding-top:0px;
+		}
+
+		/* These 2 lines specify style applied while slider is loading */
+		.csw {width: 100%; height: 460px; background: #fff; overflow: scroll}
+		.csw .loading {margin: 200px 0 300px 0; text-align: center}
+
+		.stripViewer { /* This is the viewing window */
+			position: relative;
+			overflow: hidden; 
+			 /* this is the border. should have the same value for the links */
+			margin: auto;
+			width: 610px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+			height: 400px;
+			clear: both;
+			background:rgba(0,0,0,0.6);
+    color:#ccc;
+    
+		}
+		.stripViewer img {
+display:block;margin:auto;
+
+}
+		
+		.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+			position: relative;
+			left: 0; top: 0;
+			width: 100%;
+			list-style-type: none;
+			/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+		}
+		
+		.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+			float:left;
+			height: 100%;
+			position: relative;
+			width: 600px; /* Also specified in  .stripViewer  above */
+		}
+		
+		.stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
+			padding: 10px;
+		}
+		
+		.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+			margin: auto;
+    
+		}
+		
+		.stripNav ul { /* The auto-generated set of links */
+			list-style: none;
+    padding:0 0 0 5px;
+width:630px;
+		}
+		
+		.stripNav ul li {
+			float:left;
+width:122px;
+		}
+		
+		.stripNav a { /* The nav links */
+			font-size: 10px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 32px;
+			background: #c6e3ff;
+			color: #fff;
+			text-decoration: none;
+			display: none;
+			padding: 0 15px;
+		}
+		
+		.stripNav li.tab1 a { background: rgba(0,0,0,0.9); }
+		.stripNav li.tab2 a { background: rgba(0,0,0,0.9); }
+		.stripNav li.tab3 a { background: rgba(0,0,0,0.9); }
+		.stripNav li.tab4 a { background: rgba(0,0,0,0.9); }
+		.stripNav li.tab5 a { background: rgba(0,0,0,0.9); }
+		
+		.stripNav li a:hover {
+			background: rgba(0,0,0,0.8);
+		}
+		.stripNav li a:hover.current {
+			background: rgba(0,0,0,0.8);
+		}
+		.stripNav li a.current {
+			background: rgba(0,0,0,0.6);
+			color: #fff;
+		}
+		
+		.stripNavL, .stripNavR { /* The left and right arrows */
+			position: absolute;
+			top: 230px;
+			text-indent: -9000em;
+		}
+		
+		.stripNavL a, .stripNavR a {
+			display: block;
+			height: 40px;
+			width: 40px;
+		}
+		
+		.stripNavL {
+			left: 0;
+		}
+		
+		.stripNavR {
+			right: 0;
+		}
+		
+		.stripNavL {
+			background: url("images/arrow-left.gif") no-repeat center;
+		}
+		
+		.stripNavR {
+			background: url("images/arrow-right.gif") no-repeat center;
+		}
+		#previous{width:100px;
+		  float:left;
+		  padding-left:20px;
+		}
+		#next{
+		  width:100px;
+		  float:right;
+		  text-align:right;
+		  padding-right:10px;
+		}
+/*
+  end coda slider*/
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 20px 0 }
+	.coda-slider { background: #ebebeb }
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 600px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 600px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 20px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: auto }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	

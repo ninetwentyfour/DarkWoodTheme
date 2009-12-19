@@ -7,6 +7,22 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery.coda-slider-2.0.js"></script>
+		 <script type="text/javascript">
+			$().ready(function() {
+				$('#coda-slider-1').codaSlider();
+			});
+		 </script>
+
+	<!-- End JavaScript -->
+
+<!--<script src="<?php bloginfo('url'); ?>/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
+<script src="<?php bloginfo('url'); ?>/jquery-easing.1.2.pack.js" type="text/javascript"></script>
+<script src="<?php bloginfo('url'); ?>/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
+-->
+
+
 <?php wp_head(); ?>
 </head>
 <body>
