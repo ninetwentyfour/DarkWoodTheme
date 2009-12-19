@@ -8,7 +8,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/slider.js"></script>
-<!--[if lt IE 8]>
+<!--[if lte IE 8]>
 <link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/ie.css" type="text/css" media="screen" />
 <![endif]-->
 		<?php wp_head(); ?>
