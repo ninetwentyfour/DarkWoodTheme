@@ -9,6 +9,9 @@ http://cloaks.deviantart.com/art/Dark-Wood-Texture-Pack-100478218
 Social Icons from:
 http://webtreats.mysitemyway.com/glossy-waxed-wood-social-networking-icons/
 
+Moving Boxes Slider From:
+http://css-tricks.com/moving-boxes/
+
 This theme is available for use for personal or commercial purposes. Please consider giving a link back to http://www.travisberry.com somewhere on your site.
 
 For questions email contact@travisberry.com 
