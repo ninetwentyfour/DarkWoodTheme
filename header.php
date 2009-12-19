@@ -6,22 +6,13 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<!--<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>-->
 <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/slider.js"></script>
-		
- 
-
-	<!-- End JavaScript -->
-
-<!--<script src="<?php bloginfo('url'); ?>/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
-<script src="<?php bloginfo('url'); ?>/jquery-easing.1.2.pack.js" type="text/javascript"></script>
-<script src="<?php bloginfo('url'); ?>/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
--->
-
-
-<?php wp_head(); ?>
-</head>
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/ie.css" type="text/css" media="screen" />
+<![endif]-->
+		<?php wp_head(); ?>
+		</head>
 <body>
 <div id ="container">
     <div id="backgrounds">
