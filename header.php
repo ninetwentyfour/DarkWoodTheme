@@ -46,10 +46,10 @@
 <a href="<?php bloginfo('url'); ?>/examples/">Examples</a>
     </div>
     <p class="menu_head">Contact</p>
-    <div id="menu_body">
+    <div id="menu_body" <?php if ( is_page('contact') || is_page('social-networks'))  { echo ' class="current_page_item"'; } ?>>
         
 	<a href="<?php bloginfo('url'); ?>/contact/">Contact Form</a>
-<a href="<?php bloginfo('url'); ?>/location/">Social Networks</a>
+<a href="<?php bloginfo('url'); ?>/social-networks/">Social Networks</a>
     </div>
 </div>
 <!-- slides the element with class "menu_body" when paragraph with class "menu_head" is clicked -->
