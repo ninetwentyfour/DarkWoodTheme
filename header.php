@@ -6,14 +6,11 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery.coda-slider-2.0.js"></script>
-		 <script type="text/javascript">
-			$().ready(function() {
-				$('#coda-slider-1').codaSlider();
-			});
-		 </script>
+<!--<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>-->
+<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/js/slider.js"></script>
+		
+ 
 
 	<!-- End JavaScript -->
 
@@ -69,14 +66,13 @@
     </div>
 </div>
 <!-- slides the element with class "menu_body" when paragraph with class "menu_head" is clicked -->
-<script>$("#firstpane p.menu_head").click(function()
+<script type="text/javascript">$("#firstpane p.menu_head").click(function()
 {
     $(this).next("#menu_body").slideToggle(300).siblings("#menu_body").slideUp("slow");
      
 });
 
 </script>
-
 
 <noscript><link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/nojs.css" type="text/css" media="screen" /></noscript>
         </div>
