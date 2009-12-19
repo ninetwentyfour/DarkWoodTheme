@@ -19,38 +19,37 @@
         <div id="navigation">
             <noscript><nojs>THIS SITE WORKS BEST WITH JAVASCRIPT ENABLED</nojs></noscript>
             <div id="firstpane" class="menu_list">
-  <p class="menu_head">Projects</p>
+  <p class="menu_head">Video</p>
     <div id="menu_body" <?php if ( is_page('tudor') || is_page('victorian') || is_page('craftsman') || is_page('georgian') || is_page('contemporary') || is_page('cottage'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
         <ul>
-	<?php wp_list_pages('include=2,146,190,143&title_li='); ?><!-- insert page id numbers for category -->
-        </ul>
+<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/examples/">Examples</a>        </ul>
 
     </div>
-  <p class="menu_head">Services</p>
+  <p class="menu_head">Web</p>
     <div id="menu_body" <?php if ( is_page('general-contracting') || is_page('owner-rep') || is_page('home-management') || is_page('green-building'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/general-contracting/">General Contracting</a>
-<a href="<?php bloginfo('url'); ?>/owner-rep/">Owner Rep / Consulting</a>
-<a href="<?php bloginfo('url'); ?>/home-management/">Home Management</a>
-<a href="<?php bloginfo('url'); ?>/green-building/">Green Building / Energy Efficiency</a>
+	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/examples/">Examples</a>
+
     </div>
-  <p class="menu_head">Team</p>
-    <div id="menu_body" <?php if ( is_page('owner') || is_page('employees'))  { echo ' class="current_page_item"'; } ?>>
+  <p class="menu_head">Print</p>
+    <div id="menu_body" <?php if ( is_page('tst') || is_page('one'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/owner/">Owner</a>
-<a href="<?php bloginfo('url'); ?>/employees/">Employees</a>
+	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/examples/">Examples</a>
    </div>
-    <p class="menu_head">Media</p>
+    <p class="menu_head">Photography</p>
     <div id="menu_body" <?php if ( is_page('video') || is_page('news'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/video/">Video</a>
-<a href="<?php bloginfo('url'); ?>/news/">News</a>
+	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/examples/">Examples</a>
     </div>
     <p class="menu_head">Contact</p>
     <div id="menu_body">
         
-	<a href="<?php bloginfo('url'); ?>/contact/">Contact</a>
-<a href="<?php bloginfo('url'); ?>/location/">Location</a>
+	<a href="<?php bloginfo('url'); ?>/contact/">Contact Form</a>
+<a href="<?php bloginfo('url'); ?>/location/">Social Networks</a>
     </div>
 </div>
 <!-- slides the element with class "menu_body" when paragraph with class "menu_head" is clicked -->
