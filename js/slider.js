@@ -12,7 +12,7 @@ $(function() {
 	var curWidth			= 350;
 	var curImgWidth			= 326;
 	var curTitleSize		= "20px";
-	var curParSize			= "15px";
+	var curParSize			= "12px";
 
 	var $panels				= $('#slider .scrollContainer > div');
 	var $container			= $('#slider .scrollContainer');

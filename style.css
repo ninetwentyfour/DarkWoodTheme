@@ -256,7 +256,7 @@ box-shadow: 0px -2px 1px #000;
     width: 430px;
     margin: 0 auto;
     position: relative;
-	border: 10px solid #ccc;
+	border: 10px solid #010101;
 }
 
 .scroll {
@@ -273,7 +273,7 @@ box-shadow: 0px -2px 1px #000;
 .scrollContainer div.panel {
     padding: 10px;
     width: 274px;
-	height: 318px;
+	height: 280px;
 }
 
 #left-shadow {
@@ -296,12 +296,12 @@ box-shadow: 0px -2px 1px #000;
 
 .inside {
 	padding: 10px;
-	border: 1px solid #999;
+	border: 1px solid #222;
 }
 
 .inside img {
 	display: block;
-	border: 1px solid #666;
+	border: 1px solid #222;
 	margin: 0 0 10px 0;
 	width: 250px;
 }
@@ -315,7 +315,7 @@ box-shadow: 0px -2px 1px #000;
 
 .inside p {
 	font-size: 11px;
-	color: #ccc;
+	color: #cecccc;
 }
 
 
@@ -327,11 +327,11 @@ box-shadow: 0px -2px 1px #000;
 }
 
 .scrollButtons.left {
-    left: -45px;
+    left: -10px;
 }
 
 .scrollButtons.right {
-    right: -45px;
+    right: -10px;
 }
 
 .hide {
