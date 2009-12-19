@@ -17,3 +17,5 @@ This theme is available for use for personal or commercial purposes. Please cons
 For questions email contact@travisberry.com 
 
 Download latest version from http://github.com/ninetwentyfour/DarkWoodTheme/archives/master
+
+See installation.txt for install instructions
