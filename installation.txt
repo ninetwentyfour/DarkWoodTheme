@@ -1,0 +1,72 @@
+Installation
+
+Download and install in wp-content/themes/ folder. Update header.php navigation links to match your needed pages. Update links in style.css to point to your url. Set homepage to static page. Theme is not recommended for blog use. Fixed height limits blog length.
+
+Questions email, contact@travisberry.com
+
+Slider Usage:
+To use slider copy the following into a new page. Use html view.
+
+<div id="slider">    
+
+            <img class="scrollButtons left" src="yourdomain/wp-content/themes/darkwoodtheme/images/leftarrow.png">
+
+			<div style="overflow: hidden;" class="scroll">
+	
+				<div class="scrollContainer">
+	
+	                <div class="panel" id="panel_1">
+
+						<div class="inside">
+							<a href="http://www.video-parent.com/images/1.jpg"><img src="http://www.video-parent.com/images/1.jpg" alt="picture" /></a>
+							
+							<p>A very shot exerpt goes here... <a href="http://flickr.com/photos/justbcuz/112479862/">more link</a></p>
+						</div>
+					</div>
+
+	                <div class="panel" id="panel_2">
+
+						<div class="inside">
+							<a href="http://www.video-parent.com/images/2.jpg"><img src="http://www.video-parent.com/images/2.jpg" alt="picture" /></a>
+							
+							<p>A very shot exerpt goes here... <a href="http://flickr.com/photos/joshuacraig/2698975899/">more link</a></p>
+						</div>
+					</div>
+				
+	                <div class="panel" id="panel_3">
+
+						<div class="inside">
+							<a href="http://www.video-parent.com/images/3.jpg"><img src="http://www.video-parent.com/images/3.jpg" alt="picture" /></a>
+						
+							<p>A very shot exerpt goes here... <a href="http://flickr.com/photos/ruudvanleeuwen/468309897/">more link</a></p>
+						</div>
+					</div>
+					
+					<div class="panel" id="panel_4">
+
+						<div class="inside">
+							<a href="http://www.video-parent.com/images/4.jpg"><img src="http://www.video-parent.com/images/4.jpg" alt="picture" /></a>
+						
+							<p>A very shot exerpt goes here... <a href="http://flickr.com/photos/emikohime/294092478/">more link</a></p>
+						</div>
+					</div>
+					
+					<div class="panel" id="panel_5">
+
+						<div class="inside">
+							<a href="http://www.video-parent.com/images/5.jpg"><img src="http://www.video-parent.com/images/5.jpg" alt="picture" /></a>
+						
+							<p>A very shot exerpt goes here... <a href="http://flickr.com/photos/fensterbme/499006584/">more link</a></p>
+						</div>
+					</div>
+				
+                </div>
+
+				<div id="left-shadow"></div>
+				<div id="right-shadow"></div>
+
+            </div>
+
+			<img class="scrollButtons right" src="yourdomain/wp-content/themes/darkwoodtheme/images/rightarrow.png">
+
+        </div>
