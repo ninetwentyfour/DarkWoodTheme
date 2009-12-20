@@ -241,35 +241,10 @@ if(!aa_print_html($AA_STATUS_CODE)){
 <div id="content">
 
 		
-    <h1><?php _e("$AA_STATUS_CODE $AA_REASON_PHRASE"); ?></h1><p>Instead, why not read one of these posts?</p><br />
-<?php 
-global $post;
-$postid = $post->ID;
-$args = array(
-'orderby' => 'rand',
-'showposts'=>4,
-'post__not_in'=>array($postid)
-);
-query_posts($args);
-echo '<ul>';
-while (have_posts()) : the_post();
-echo '<li><a href="'.get_permalink().'" title="'.the_title('','',false).'">'.the_title('','',false).'</a></li>';
-endwhile;
-echo '</ul>';
-?><br />
-<p>Or search for something else here</p><br />
-<?php $search_text = "Type and hit enter"; ?> 
-<form method="get" id="searchform"  
-action="<?php bloginfo('home'); ?>/"> 
-<input type="text" value="<?php echo $search_text; ?>"  
-name="s" id="s"  
-onblur="if (this.value == '')  
-{this.value = '<?php echo $search_text; ?>';}"  
-onfocus="if (this.value == '<?php echo $search_text; ?>')  
-{this.value = '';}" /> 
-<input type="hidden" id="searchsubmit" /> 
-</form>
-	</div>
+    <h1><?php _e("$AA_STATUS_CODE $AA_REASON_PHRASE"); ?></h1>
+   <p> Try clicking one of the links</p>
+   <p>&#60;&#60; to the left</p>
+	
 
 </div>
 <div id="footer">
