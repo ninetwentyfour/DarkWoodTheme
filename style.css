@@ -338,3 +338,7 @@ box-shadow: 0px -2px 1px #000;
     display: none;
 }
 	/*end coda slider*/
+	#photoholder {
+
+  background:none;
+}
