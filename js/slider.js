@@ -142,8 +142,8 @@ function fadeIn(objId,opacity) {
 		obj = document.getElementById(objId);
 		if (opacity <= 100) {
 			setOpacity(obj, opacity);
-			opacity += 5;
-			window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 100);
+			opacity += 2;
+			window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 50);
 		}
 	}
 }
@@ -158,5 +158,7 @@ function setOpacity(obj, opacity) {
 	// Safari 1.2, newer Firefox and Mozilla, CSS3
 	obj.style.opacity = opacity/100;
 }
+
+
 window.onload = function() {initImage()}
-// 
+//

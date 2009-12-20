@@ -26,15 +26,23 @@
   <p class="menu_head">Video</p>
     <div id="menu_body" <?php if ( is_page('video-examples') || is_page('video-clients'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
         <ul>
-<a href="<?php bloginfo('url'); ?>/video-clients/">Clients</a>
-<a href="<?php bloginfo('url'); ?>/video-examples/">Examples</a>        </ul>
+	    <!-- ... -->
+<a href="<?php bloginfo('url'); ?>/video-clients/" class='fade'>Clients</a>
+<!-- ... -->
+<!-- ... -->
+<a href="<?php bloginfo('url'); ?>/video-examples/" class='fade'>Examples</a>
+	<!-- ... -->
+	</ul>
 
     </div>
   <p class="menu_head">Web</p>
     <div id="menu_body" <?php if ( is_page('web-examples') || is_page('web-clients'))  { echo ' class="current_page_item"'; } ?>>
-        
-	<a href="<?php bloginfo('url'); ?>/web-clients/">Clients</a>
-<a href="<?php bloginfo('url'); ?>/web-examples/">Examples</a>
+        <!-- ... -->
+	<a href="<?php bloginfo('url'); ?>/web-clients/" class='fade'>Clients</a>
+	<!-- ... -->
+	<!-- ... -->
+<a href="<?php bloginfo('url'); ?>/web-examples/" class='fade'>Examples</a>
+<!-- ... -->
 
     </div>
   <p class="menu_head">Print</p>
