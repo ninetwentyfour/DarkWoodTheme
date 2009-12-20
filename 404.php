@@ -193,49 +193,47 @@ if(!aa_print_html($AA_STATUS_CODE)){
         <div id="navigation">
             <noscript><nojs>THIS SITE WORKS BEST WITH JAVASCRIPT ENABLED</nojs></noscript>
             <div id="firstpane" class="menu_list">
-  <p class="menu_head">Projects</p>
-    <div id="menu_body" <?php if ( is_page('tudor') || is_page('victorian') || is_page('craftsman') || is_page('georgian') || is_page('contemporary') || is_page('cottage'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
+  <p class="menu_head">Video</p>
+    <div id="menu_body" <?php if ( is_page('video-examples') || is_page('video-clients'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
         <ul>
-	<?php wp_list_pages('include=2,146,190,143&title_li='); ?><!-- insert page id numbers for category -->
-        </ul>
+<a href="<?php bloginfo('url'); ?>/video-clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/video-examples/">Examples</a>        </ul>
 
     </div>
-  <p class="menu_head">Services</p>
-    <div id="menu_body" <?php if ( is_page('general-contracting') || is_page('owner-rep') || is_page('home-management') || is_page('green-building'))  { echo ' class="current_page_item"'; } ?>>
+  <p class="menu_head">Web</p>
+    <div id="menu_body" <?php if ( is_page('web-examples') || is_page('web-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/general-contracting/">General Contracting</a>
-<a href="<?php bloginfo('url'); ?>/owner-rep/">Owner Rep / Consulting</a>
-<a href="<?php bloginfo('url'); ?>/home-management/">Home Management</a>
-<a href="<?php bloginfo('url'); ?>/green-building/">Green Building / Energy Efficiency</a>
+	<a href="<?php bloginfo('url'); ?>/web-clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/web-examples/">Examples</a>
+
     </div>
-  <p class="menu_head">Team</p>
-    <div id="menu_body" <?php if ( is_page('owner') || is_page('employees'))  { echo ' class="current_page_item"'; } ?>>
+  <p class="menu_head">Print</p>
+    <div id="menu_body" <?php if ( is_page('print-examples') || is_page('print-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/owner/">Owner</a>
-<a href="<?php bloginfo('url'); ?>/employees/">Employees</a>
+	<a href="<?php bloginfo('url'); ?>/print-clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/print-examples/">Examples</a>
    </div>
-    <p class="menu_head">Media</p>
-    <div id="menu_body" <?php if ( is_page('video') || is_page('news'))  { echo ' class="current_page_item"'; } ?>>
+    <p class="menu_head">Photography</p>
+    <div id="menu_body" <?php if ( is_page('photography-examples') || is_page('photography-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/video/">Video</a>
-<a href="<?php bloginfo('url'); ?>/news/">News</a>
+	<a href="<?php bloginfo('url'); ?>/photography-clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/photography-examples/">Examples</a>
     </div>
     <p class="menu_head">Contact</p>
-    <div id="menu_body">
+    <div id="menu_body" <?php if ( is_page('contact') || is_page('social-networks'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/contact/">Contact</a>
-<a href="<?php bloginfo('url'); ?>/location/">Location</a>
+	<a href="<?php bloginfo('url'); ?>/contact/">Contact Form</a>
+<a href="<?php bloginfo('url'); ?>/social-networks/">Social Networks</a>
     </div>
 </div>
 <!-- slides the element with class "menu_body" when paragraph with class "menu_head" is clicked -->
-<script>$("#firstpane p.menu_head").click(function()
+<script type="text/javascript">$("#firstpane p.menu_head").click(function()
 {
     $(this).next("#menu_body").slideToggle(300).siblings("#menu_body").slideUp("slow");
      
 });
 
 </script>
-
 
 <noscript><link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/darkwoodtheme/nojs.css" type="text/css" media="screen" /></noscript>
         </div>
