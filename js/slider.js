@@ -128,10 +128,10 @@ $(function() {
 	
 });
 
-document.write("<style type='text/css'>#thephoto {visibility:hidden;}</style>");
+document.write("<style type='text/css'>#fade {visibility:hidden;}</style>");
 
 function initImage() {
-	imageId = 'thephoto';
+	imageId = 'fade';
 	image = document.getElementById(imageId);
 	setOpacity(image, 0);
 	image.style.visibility = "visible";
