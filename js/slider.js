@@ -142,7 +142,7 @@ function fadeIn(objId,opacity) {
 		obj = document.getElementById(objId);
 		if (opacity <= 100) {
 			setOpacity(obj, opacity);
-			opacity += 10;
+			opacity += 5;
 			window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 100);
 		}
 	}
