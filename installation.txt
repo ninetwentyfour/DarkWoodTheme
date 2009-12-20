@@ -1,6 +1,7 @@
 Installation
 
 Download and install in wp-content/themes/ folder. Update header.php navigation links to match your needed pages. Update links in style.css to point to your url. Set homepage to static page. Theme is not recommended for blog use. Fixed height limits blog length.
+For ease of use, create pages; video-examples, web-examples, print-examples, photography-examples, contact, social-networks, clients
 
 Questions email, contact@travisberry.com
 
