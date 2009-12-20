@@ -24,29 +24,29 @@
             <noscript><nojs>THIS SITE WORKS BEST WITH JAVASCRIPT ENABLED</nojs></noscript>
             <div id="firstpane" class="menu_list">
   <p class="menu_head">Video</p>
-    <div id="menu_body" <?php if ( is_page('video-examples') || is_page('victorian') || is_page('craftsman') || is_page('georgian') || is_page('contemporary') || is_page('cottage'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
+    <div id="menu_body" <?php if ( is_page('video-examples') || is_page('video-clients'))  { echo ' class="current_page_item"'; } ?>><!-- Insert names of pages in category. This will keep current category navigation displayed -->
         <ul>
-<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+<a href="<?php bloginfo('url'); ?>/video-clients/">Clients</a>
 <a href="<?php bloginfo('url'); ?>/video-examples/">Examples</a>        </ul>
 
     </div>
   <p class="menu_head">Web</p>
-    <div id="menu_body" <?php if ( is_page('web-examples') || is_page('owner-rep') || is_page('home-management') || is_page('green-building'))  { echo ' class="current_page_item"'; } ?>>
+    <div id="menu_body" <?php if ( is_page('web-examples') || is_page('web-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+	<a href="<?php bloginfo('url'); ?>/web-clients/">Clients</a>
 <a href="<?php bloginfo('url'); ?>/web-examples/">Examples</a>
 
     </div>
   <p class="menu_head">Print</p>
-    <div id="menu_body" <?php if ( is_page('print-examples') || is_page('one'))  { echo ' class="current_page_item"'; } ?>>
+    <div id="menu_body" <?php if ( is_page('print-examples') || is_page('print-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+	<a href="<?php bloginfo('url'); ?>/print-clients/">Clients</a>
 <a href="<?php bloginfo('url'); ?>/print-examples/">Examples</a>
    </div>
     <p class="menu_head">Photography</p>
-    <div id="menu_body" <?php if ( is_page('photography-examples') || is_page('news'))  { echo ' class="current_page_item"'; } ?>>
+    <div id="menu_body" <?php if ( is_page('photography-examples') || is_page('photography-clients'))  { echo ' class="current_page_item"'; } ?>>
         
-	<a href="<?php bloginfo('url'); ?>/clients/">Clients</a>
+	<a href="<?php bloginfo('url'); ?>/photography-clients/">Clients</a>
 <a href="<?php bloginfo('url'); ?>/photography-examples/">Examples</a>
     </div>
     <p class="menu_head">Contact</p>
