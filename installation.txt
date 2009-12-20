@@ -2,6 +2,7 @@ Installation
 
 Download and install in wp-content/themes/ folder. Update header.php navigation links to match your needed pages. Update links in style.css to point to your url. Set homepage to static page. Theme is not recommended for blog use. Fixed height limits blog length.
 For ease of use, create pages; video-examples, web-examples, print-examples, photography-examples, video-clients, web-clients, print-clients, photography-clients, contact, social-networks, clients
+To add google analytics, insert your UA code into the script located in the footer.php
 
 Questions email, contact@travisberry.com
 
