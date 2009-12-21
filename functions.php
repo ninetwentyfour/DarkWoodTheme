@@ -31,4 +31,10 @@ $link = substr_replace($link, '', $offset, $end-$offset);
 return $link;
 }
 add_filter('the_content_more_link', 'remove_more_jump_link');
+
+//widgets
+if ( function_exists('register_sidebar') )
+    register_sidebar();
+
+
 ?>
