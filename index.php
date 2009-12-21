@@ -7,6 +7,7 @@
 			
 					<div class="entry">
 						<?php the_content('Read more...'); ?></div></div>
+<p><?php the_tags(); ?></p>
 <?php endwhile; ?><br /><br />
 <div id="next"><?php next_posts_link('Older posts') ?></div><div id="previous"><?php previous_posts_link('Newer posts') ?></div>
 <?php endif; ?>
