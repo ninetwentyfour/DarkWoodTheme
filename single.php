@@ -39,6 +39,8 @@ $my_query = new wp_query($args);
 
 <?php endwhile; ?><br /><br />
 <div id="next"><?php next_posts_link('Older posts') ?></div><div id="previous"><?php previous_posts_link('Newer posts') ?></div>
+<?php wp_link_pages(); ?>
+
 <?php endif; ?>
 </div>
 <?php get_footer(); ?>
